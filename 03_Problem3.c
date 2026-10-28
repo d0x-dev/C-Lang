@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int main()
-{
-    int a = 20, b = 6;
+int main() {
+    int a = 15, b = 4;
 
-    printf("Addition = %d\n", a + b);
-    printf("Subtraction = %d\n", a - b);
-    printf("Multiplication = %d\n", a * b);
-    printf("Division = %d\n", a / b);
-    printf("Modulus = %d\n", a % b);
+    printf("a = %d, b = %d\n", a, b);
+    printf("a + b = %d\n", a + b);
+    printf("a - b = %d\n", a - b);
+    printf("a * b = %d\n", a * b);
+    printf("a / b = %d\n", a / b);
+    printf("a %% b = %d\n", a % b);
 
     return 0;
 }
